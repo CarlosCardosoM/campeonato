@@ -1,0 +1,21 @@
+header{
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   
+}
+.link-container{
+    display: flex;
+    gap: 32px;
+}
+.link-container a{
+    text-shadow: 2px 2px 2px 2px black;
+    padding: 6px;
+}
+.link-container a:hover{
+    background-color:#0000cd71;
+}
+.link-container ul{
+    transition-duration: 1s;
+}
+

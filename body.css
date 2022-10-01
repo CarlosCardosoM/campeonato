@@ -1,0 +1,28 @@
+/*background do fundo da pagina*/
+body{
+    height: 100vh;
+    background: linear-gradient(80deg, rgba(0, 0, 0, 0.548),#0404dd1e),
+    url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+    animation: zoom 2s alternate;
+
+}
+@media (max-width:768px){
+    body{
+        padding: 30px;
+    }
+
+}
+@keyframes zoom{
+    0%{
+        transform: scale(3);
+    }
+    100%{ transform: scale(1);
+
+    }
+}
