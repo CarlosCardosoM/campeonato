@@ -14,7 +14,10 @@ body{
 }
 @media (max-width:768px){
     body{
-        padding: 30px;
+        padding: 30px  30px 25px 30px;
+        background-color: rgba(0, 0, 0, 0.548);
+        background-image: url(background1.jpg);
+        background-blend-mode: darken;
     }
 
 }
